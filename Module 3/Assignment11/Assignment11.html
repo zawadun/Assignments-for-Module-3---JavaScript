@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 11 - Modal Image</title>
+</head>
+<body>
+
+    <div class="gallery">
+        <!-- Example article added manually as instructed -->
+        <article class="card">
+            <h2>Image 1</h2>
+            <figure>
+                <img src="medium_image1.jpg" alt="Image 1" class="thumbnail">
+            </figure>
+            <p>Short description of Image 1.</p>
+        </article>
+
+        <article class="card">
+            <h2>Image 2</h2>
+            <figure>
+                <img src="medium_image2.jpg" alt="Image 2" class="thumbnail">
+            </figure>
+            <p>Short description of Image 2.</p>
+        </article>
+
+        <!-- Add more articles here as necessary -->
+    </div>
+
+    <!-- Modal dialog for large image -->
+    <dialog id="imageModal">
+        <span id="closeBtn">&#x2715;</span>
+        <img id="modalImage" alt="Large Image">
+    </dialog>
+
+    <script src="Assignment11.js"></script>
+</body>
+</html>
